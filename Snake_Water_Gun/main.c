@@ -12,7 +12,7 @@ int main()
     srand(time(0));
 
     int player, computer = (rand() % 3);
-    printf("Enter 0=Snake,1=Water and 2=Gun\n");
+    printf("Enter you choice\n0 = Snake\n1 = Water\n2 = Gun\n");
     scanf("%d", &player);
     printf("Computer choose :%d\n", computer);
     
